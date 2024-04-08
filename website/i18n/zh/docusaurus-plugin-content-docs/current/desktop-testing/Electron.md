@@ -3,34 +3,34 @@ id: electron
 title: Electron
 ---
 
-Electron is a framework for building desktop applications using JavaScript, HTML, and CSS. By embedding Chromium and Node.js into its binary, Electron allows you to maintain one JavaScript codebase and create cross-platform apps that work on Windows, macOS, and Linux — no native development experience required.
+Electron 是一个使用 JavaScript、HTML 和 CSS 构建桌面应用程序的框架。通过将 Chromium 和 Node.js 嵌入到其二进制文件中，Electron 允许您维护一个 JavaScript 代码库并创建可在 Windows、macOS 和 Linux 上运行的跨平台应用程序 -无需本地开发经验。
 
-WebdriverIO provides an integrated service that simplifies the interaction with your Electron app and makes testing it very simple. The advantages of using WebdriverIO for testing Electron applications are:
+WebdriverIO 提供了一项集成服务，可以简化与 Electron 应用程序的交互并使其测试变得非常简单。使用 WebdriverIO 测试 Electron 应用程序的优点是：
 
-- ☺️ Automated download of the correct Chromedriver version
-- ⚒️ Access to the Electron API, namely: [`app`](https://www.electronjs.org/docs/latest/api/app), [`browserWindow`](https://www.electronjs.org/docs/latest/api/browser-window), [`dialog`](https://www.electronjs.org/docs/latest/api/dialog) and [`mainProcess`](https://www.electronjs.org/docs/latest/api/process).
-- 🔄 Custom mocking of Electron API functionality
-- 👤 Ability to define custom API handlers to modify application behavior under test
+- ☺️ 自动下载正确的 Chromedriver 版本
+- ⚒️ 访问Electron API，即：[`app`](https://www.electronjs.org/docs/latest/api/app)、[`browserWindow`](https://www.electronjs.org/docs/latest/api/browser-window), [`dialog`](https://www.electronjs.org/docs/latest/api/dialog) 和 [`mainProcess`](https://www.electronjs.org/docs/latest/api/process)。
+- 🔄 Electron API 功能的自定义模拟
+- 👤 能够定义自定义 API 处理程序来修改测试下的应用程序行为
 
-You just need a few simple steps to get started.
+您只需要几个简单的步骤即可开始。
 
-## Getting Started
+## 入门
 
-To initiate a new WebdriverIO project, run:
+要启动新的 WebdriverIO 项目，请运行：
 
 ```sh
 npm create wdio@latest ./
 ```
 
-An installation wizard will guide you through the process. Ensure you select _"Desktop Testing - of Electron Applications"_ when it asks you what type of testing you'ld like to do. Afterwards provide the path to your compiled Electron application, e.g. `./dist`, then just keep the defaults or modify based on your preference.
+安装向导将指导您完成整个过程。当它询问您想要执行什么类型的测试时，请确保选择 _“Electron 应用程序的桌面测试”_。然后提供编译后的 Electron 应用程序的路径，例如 `./dist`，然后保留默认值或根据您的喜好进行修改。
 
-The configuration wizard will install all required packages and creates a `wdio.conf.js` or `wdio.conf.ts` with the necessary configuration to test your application. If you agreed to autogenerate some tests files you can run your first test via `npm run wdio`.
+配置向导将安装所有必需的包，并使用必要的配置创建 `wdio.conf.js` 或 `wdio.conf.ts` 来测试您的应用程序。如果您同意自动生成一些测试文件，您可以通过 `npm run wdio` 运行第一个测试。
 
-That's it 🎉
+就是这样🎉
 
-## Configuration
+## 配置
 
-To use the service you need to add `electron` to your services array and set an Electron capability, e.g.:
+要使用该服务，您需要将 `electron` 添加到您的服务数组中并设置 Electron 功能，例如：
 
 ```js
 // wdio.conf.js

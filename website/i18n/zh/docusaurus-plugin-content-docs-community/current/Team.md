@@ -1,18 +1,18 @@
 ---
 id: team
-title: Team
+title: 团队
 ---
 
-The WebdriverIO development is led by a dedicated team of developers and SDETs from various companies as well contributions from people around the world.
+WebdriverIO 的开发由来自不同公司的开发人员和 SDET 组成的专门团队领导，并得到了世界各地人们的贡献。
 
-## Technical Steering Committee
+## 技术指导委员会
 
 <Card
     name="Adam Bjerstedt"
     avatar="https://avatars2.githubusercontent.com/u/4043890?s=460"
     github="abjerstedt"
 >
-    Senior Software Engineer - Android at <a href="https://www.target.com/">Target</a>.
+    高级软件工程师 - 安卓在 <a href="https://www.target.com/">Target</a>。
 </Card>
 
 <Card
@@ -21,7 +21,7 @@ The WebdriverIO development is led by a dedicated team of developers and SDETs f
     github="christian-bromann"
     twitter="bromann"
 >
-    Staff Software Engineer at the Open Source Program Office <a href="https://saucelabs.com/">@saucelabs</a>.
+    开源项目办公室的软件工程师 <a href="https://saucelabs.com/">@saucelabs</a>。
 </Card>
 
 <Card
@@ -29,7 +29,7 @@ The WebdriverIO development is led by a dedicated team of developers and SDETs f
     avatar="https://avatars.githubusercontent.com/u/15839059?s=460"
     github="erwinheitzman"
 >
-    Senior Test Automation Engineer at <a href="https://detesters.nl/">deTesters</a>.
+    高级测试自动化工程师在 <a href="https://detesters.nl/">deTesters</a>。
 </Card>
 
 <Card
@@ -38,7 +38,7 @@ The WebdriverIO development is led by a dedicated team of developers and SDETs f
     github="klamping"
     twitter="klamping"
 >
-    Senior Front End Engineer.
+    高级前端工程师。
 </Card>
 
 <Card
@@ -46,7 +46,7 @@ The WebdriverIO development is led by a dedicated team of developers and SDETs f
     avatar="https://avatars0.githubusercontent.com/u/25589559?s=460"
     github="mgrybyk"
 >
-    Senior Software Development Engineer in Test.
+    高级软件开发测试工程师。
 </Card>
 
 <Card
@@ -54,7 +54,7 @@ The WebdriverIO development is led by a dedicated team of developers and SDETs f
     avatar="https://avatars3.githubusercontent.com/u/1300981?s=460"
     github="WillBrock"
 >
-    Automation Engineering Manager at <a href="https://focusschoolsoftware.com/">Focus School Software</a>.
+    自动化工程经理在 <a href="https://focusschoolsoftware.com/">Focus School Software</a>。
 </Card>
 
 <Card
@@ -63,10 +63,10 @@ The WebdriverIO development is led by a dedicated team of developers and SDETs f
     github="wswebcreation"
     twitter="wswebcreation"
 >
-    Senior Solutions Architect <a href="https://saucelabs.com/">@saucelabs</a>.
+    高级解决方案架构师 <a href="https://saucelabs.com/">@saucelabs</a>。
 </Card>
 
-## Project Collaborators
+## 项目合作者
 
 <Card
     name="Baruch Velez"
@@ -84,4 +84,4 @@ The WebdriverIO development is led by a dedicated team of developers and SDETs f
 >
 </Card>
 
-and [many many more](https://github.com/orgs/webdriverio/people).
+并且 [还有很多很多](https://github.com/orgs/webdriverio/people)。

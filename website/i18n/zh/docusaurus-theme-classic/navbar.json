@@ -1,22 +1,22 @@
 {
   "item.label.Docs": {
-    "message": "Docs",
+    "message": "文档",
     "description": "Navbar item with label Docs"
   },
   "item.label.API": {
-    "message": "API",
+    "message": "应用程序编程接口",
     "description": "Navbar item with label API"
   },
   "item.label.Blog": {
-    "message": "Blog",
+    "message": "博客",
     "description": "Navbar item with label Blog"
   },
   "item.label.Contribute": {
-    "message": "Contribute",
+    "message": "贡献",
     "description": "Navbar item with label Contribute"
   },
   "item.label.Community": {
-    "message": "Community",
+    "message": "社区",
     "description": "Navbar item with label Community"
   },
   "item.label.v8": {
